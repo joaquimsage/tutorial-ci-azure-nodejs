@@ -12,8 +12,6 @@ git status
 echo git checkout develop
 git checkout ${developBranch}
 
-echo GIT LOG -2
-git log -2
 
 echo GIT CONFIG
 git config --global user.email "joaquim.forcada@sage.com"
@@ -29,8 +27,6 @@ git merge origin/${QAbranch}
 echo GIT PUSH ORIGIN DEVELOP
 git push origin ${developBranch}
 
-echo GIT LOG -2
-git log -2
 
 echo GIT STATUS
 git status
@@ -45,8 +41,6 @@ git merge ${QAbranch}
 echo GIT PUSH ORIGIN DEVELOP
 git push origin ${developCiBranch}
 
-echo GIT LOG -2
-git log -2
 
 echo GIT STATUS
 git status
