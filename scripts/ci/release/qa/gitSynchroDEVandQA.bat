@@ -18,9 +18,9 @@ SET QAbranch=QA
 ECHO GIT STATUS
 git status
 
-#ECHO GIT CONFIG
-#git config --global user.email "joaquim.forcada@sage.com"
-#git config --global user.name "CI Auto-process"
+ECHO GIT CONFIG
+git config --global user.email "joaquim.forcada@sage.com"
+git config --global user.name "CI Auto-process"
 
 # SYNCHRONIZE SOURCE BRANCH (develop?) WITH develop-ci:-----------------------------
 ECHO Trying to git checkout %developBranch% (develop, BOTS-000, fix.develop, etc.)
@@ -29,7 +29,7 @@ ECHO GIT PULL %developBranch%
 git pull origin
 ECHO GIT MERGE DEVELOP-CI
 git merge origin/%developCiBranch%
-ECHO GIT PUSH
+ECHO GIT PUSH into DEVELOP
 git push origin %developBranch%
 ECHO GIT STATUS
 git status
@@ -37,8 +37,11 @@ git status
 # SYNCHRONIZE develop-ci WITH qa AND VICEVERSA:--------------------------------------
 ECHO Trying to git checkout %developCiBranch%
 git checkout %developCiBranch%
+ECHO Trying to pull REMOTE develop-ci
 git pull origin %developCiBranch%
+ECHO Trying to merge QA into develop-ci
 git merge origin/%QAbranch%
+ECHO Trying to push back remote origin/develop-ci
 git push origin %developCiBranch%
 ECHO GIT STATUS
 git status

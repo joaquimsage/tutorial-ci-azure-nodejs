@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fde6242-a631-47a5-8d1c-04b2308cd6b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +37,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gitSynchroDEVandQA.bat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -113,10 +122,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scripts/ci/release/gitLockReleaseDEVToQA.bat" />
         <option value="$PROJECT_DIR$/scripts/ci/release/qa/gitLockReleaseDEVToQA.bat" />
-        <option value="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat" />
         <option value="$PROJECT_DIR$/scripts/ci/release/qa/gitPullBackReleaseIntoDEV.bat" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat" />
       </list>
     </option>
   </component>
@@ -163,6 +172,27 @@
               <item name="nodejs-docs-hello-world-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejs-docs-hello-world-master" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs-docs-hello-world-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-docs-hello-world-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="ci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs-docs-hello-world-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-docs-hello-world-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="ci" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejs-docs-hello-world-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejs-docs-hello-world-master" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="ci" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +253,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547456909745</updated>
       <workItem from="1547456911170" duration="11319000" />
-      <workItem from="1547483179269" duration="1880000" />
+      <workItem from="1547483179269" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="Change version number">
       <created>1547484382571</created>
@@ -236,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13199000" />
+    <option name="totallyTimeSpent" value="13590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="44" width="1294" height="938" extended-state="0" />
@@ -294,13 +324,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitPrepareUserContext.bat" />
-    <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitPullBackReleaseIntoDEV.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-177">
@@ -343,6 +366,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
         </state>
       </provider>
     </entry>
