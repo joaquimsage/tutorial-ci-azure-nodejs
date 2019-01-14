@@ -22,9 +22,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fde6242-a631-47a5-8d1c-04b2308cd6b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat" afterDir="false" />
-    </list>
+    <list default="true" id="8fde6242-a631-47a5-8d1c-04b2308cd6b7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,8 +47,8 @@
       <file leaf-file-name="gitSynchroDEVandQA.bat" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="394">
+              <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -253,7 +251,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547456909745</updated>
       <workItem from="1547456911170" duration="11319000" />
-      <workItem from="1547483179269" duration="2271000" />
+      <workItem from="1547483179269" duration="2671000" />
     </task>
     <task id="LOCAL-00001" summary="Change version number">
       <created>1547484382571</created>
@@ -266,7 +264,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13590000" />
+    <option name="totallyTimeSpent" value="13990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="44" width="1294" height="938" extended-state="0" />
@@ -278,8 +276,8 @@
       <window_info anchor="bottom" id="Version Control" order="19" sideWeight="0.5046875" weight="0.35696822" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="right" id="Graph Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="15" visible="true" weight="0.33251834" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25479233" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" visible="true" weight="0.33251834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25479233" />
       <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="bottom" id="TeamCity" order="1" />
       <window_info anchor="bottom" id="SonarLint" order="2" />
@@ -371,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="394">
+          <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
         </state>
       </provider>
     </entry>

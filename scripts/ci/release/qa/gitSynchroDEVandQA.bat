@@ -1,5 +1,5 @@
 @echo off
-# THIS SCRIPT IS BEING USED FROM THE BUILD "LOCK-RELEASE-DEVELOPMENT-TO-QA", WITHIN THE FIRST STEP-------------
+REM THIS SCRIPT IS BEING USED FROM THE BUILD "LOCK-RELEASE-DEVELOPMENT-TO-QA", WITHIN THE FIRST STEP-------------
 
 ECHO SOURCE BRANCH IS %BUILD_SOURCEBRANCH%
 IF %BUILD_SOURCEBRANCH% == refs/heads/master (
@@ -7,9 +7,9 @@ IF %BUILD_SOURCEBRANCH% == refs/heads/master (
    EXIT
 )
 
-# The source branch is QA
+REM The source branch is QA
 SET sourceBranch=origin/%BUILD_SOURCEBRANCH:refs/heads/=%
-# The source branch is develop, BOTS-000, fix.develop, etc.
+REM The source branch is develop, BOTS-000, fix.develop, etc.
 SET developBranch=%~1
 SET developCiBranch=develop-ci
 SET QAbranch=QA
@@ -22,7 +22,7 @@ ECHO GIT CONFIG
 git config --global user.email "joaquim.forcada@sage.com"
 git config --global user.name "CI Auto-process"
 
-# SYNCHRONIZE SOURCE BRANCH (develop?) WITH develop-ci:-----------------------------
+REM SYNCHRONIZE SOURCE BRANCH (develop?) WITH develop-ci:-----------------------------
 ECHO Trying to git checkout %developBranch% (develop, BOTS-000, fix.develop, etc.)
 git checkout %developBranch%
 ECHO GIT PULL %developBranch%
@@ -34,7 +34,7 @@ git push origin %developBranch%
 ECHO GIT STATUS
 git status
 
-# SYNCHRONIZE develop-ci WITH qa AND VICEVERSA:--------------------------------------
+REM SYNCHRONIZE develop-ci WITH qa AND VICEVERSA:--------------------------------------
 ECHO Trying to git checkout %developCiBranch%
 git checkout %developCiBranch%
 ECHO Trying to pull REMOTE develop-ci
@@ -45,7 +45,7 @@ ECHO Trying to push back remote origin/develop-ci
 git push origin %developCiBranch%
 ECHO GIT STATUS
 git status
-# QA VICEVERSA:--------------------------------------
+REM QA VICEVERSA:--------------------------------------
 git checkout %QAbranch%
 git merge %developCiBranch%
 ECHO GIT PUSH QA

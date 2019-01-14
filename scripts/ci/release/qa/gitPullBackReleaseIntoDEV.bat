@@ -1,5 +1,5 @@
 @echo off
-# THIS SCRIPT IS BEING USED FROM THE BUILD "LOCK-RELEASE-DEVELOPMENT-TO-QA", WITHIN THE 2nd STEP-------------
+REM THIS SCRIPT IS BEING USED FROM THE BUILD "LOCK-RELEASE-DEVELOPMENT-TO-QA", WITHIN THE 2nd STEP-------------
 
 SET QAbranch=QA
 SET developBranch=develop
@@ -28,7 +28,7 @@ ECHO Trying to git checkout develop
 git checkout %developBranch%
 
 ECHO GIT MERGE QA
-# Add squash?
+REM Add squash?
 git merge %BUILD_SOURCEBRANCH:refs/heads/=%
 
 ECHO GIT PUSH ORIGIN DEVELOP
@@ -44,7 +44,7 @@ ECHO Trying to git checkout develop-ci
 git checkout %developCiBranch%
 
 ECHO GIT MERGE QA
-# Add squash?
+REM Add squash?
 git merge %BUILD_SOURCEBRANCH:refs/heads/=%
 
 ECHO GIT PUSH ORIGIN DEVELOP
