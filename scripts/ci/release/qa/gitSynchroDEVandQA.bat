@@ -53,9 +53,7 @@ git push origin %QAbranch%
 ECHO GIT STATUS
 git status
 
-echo GIT CHECKOUT %QAbranch% *********************************************************
-git checkout %QAbranch%
-
+REM TAGGING CHECK:------------------------------------
 echo GIT TAG history
 git tag -l
 
