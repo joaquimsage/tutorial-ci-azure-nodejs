@@ -22,7 +22,7 @@ git checkout ${developBranch}
 
 echo GIT MERGE QA
 # Add squash?
-git merge origin/${QAbranch}
+git merge ${QAbranch}
 
 echo GIT PUSH ORIGIN DEVELOP
 git push origin ${developBranch}
@@ -44,3 +44,6 @@ git push origin ${developCiBranch}
 
 echo GIT STATUS
 git status
+
+echo Trying to git checkout QA
+git checkout ${QAbranch}

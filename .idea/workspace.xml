@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fde6242-a631-47a5-8d1c-04b2308cd6b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/ci/release/qa/gitPullBackReleaseIntoDEV.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ci/release/qa/gitPullBackReleaseIntoDEV.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,7 +49,7 @@
       <file leaf-file-name="gitSynchroDEVandQA.bat" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="825">
               <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
             </state>
           </provider>
@@ -95,8 +94,8 @@
       <file leaf-file-name="gitPullBackReleaseIntoDEV.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitPullBackReleaseIntoDEV.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="113">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -136,6 +135,7 @@
       <find>REM</find>
       <find>%QAbranch%</find>
       <find>ECHO</find>
+      <find>#</find>
     </findStrings>
     <replaceStrings>
       <replace>Develop</replace>
@@ -143,6 +143,7 @@
       <replace>#</replace>
       <replace>$QAbranch</replace>
       <replace>echo</replace>
+      <replace>REM</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -287,7 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547456909745</updated>
       <workItem from="1547456911170" duration="11319000" />
-      <workItem from="1547483179269" duration="3942000" />
+      <workItem from="1547483179269" duration="4185000" />
     </task>
     <task id="LOCAL-00001" summary="Change version number">
       <created>1547484382571</created>
@@ -300,7 +301,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15261000" />
+    <option name="totallyTimeSpent" value="15504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="44" width="1294" height="938" extended-state="0" />
@@ -312,8 +313,8 @@
       <window_info anchor="bottom" id="Version Control" order="19" sideWeight="0.5046875" weight="0.35696822" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="right" id="Graph Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="15" visible="true" weight="0.33251834" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32428116" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" visible="true" weight="0.33251834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32428116" />
       <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="bottom" id="TeamCity" order="1" />
       <window_info anchor="bottom" id="SonarLint" order="2" />
@@ -396,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -420,10 +414,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitPullBackReleaseIntoDEV.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="113">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
