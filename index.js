@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World, Quino nodejs web sample app!");
+    response.end("Hello World, Quino nodejs web sample app Develop branch has been merged.!");
 
 });
 
