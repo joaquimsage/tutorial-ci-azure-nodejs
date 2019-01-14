@@ -5,7 +5,13 @@
     "private": true,
     "license": "MIT",
     "author": "Microsoft",
+    "dependencies": {
+        "release-it": "7.6.1"
+    },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "lock-prerelease-dev": "./node_modules/release-it/bin/release-it.js minor -n --npm.tag=next --src.tag=true  --src.push=true  --config=.release-it.json --preRelease=RC",
+        "lock-prerelease-patch-dev": "./node_modules/release-it/bin/release-it.js       -n --npm.tag=next --src.tag=true  --src.push=true  --config=.release-it.json --preRelease=RC",
+        "release-qa": "./node_modules/release-it/bin/release-it.js minor -n --npm.tag=next  --src.tag=true --src.push=true --config=.release-it.json"
     }
 }
