@@ -25,11 +25,11 @@ git push origin ${developBranch}
 echo GIT STATUS
 git status
 
-# SYNCHRONIZE develop-ci WITH qa AND VICEVERSA:--------------------------------------
+# SYNCHRONIZE develop-ci WITH develop and QA AND VICEVERSA:--------------------------------------
 echo Trying to git checkout ${developCiBranch}
 git checkout ${developCiBranch}
-echo Trying to pull REMOTE develop-ci
-git pull origin ${developCiBranch}
+git merge ${developBranch}
+
 echo Trying to merge QA into develop-ci
 git merge origin/${QAbranch}
 echo Trying to push back remote origin/develop-ci
