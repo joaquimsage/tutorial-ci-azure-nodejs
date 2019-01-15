@@ -46,7 +46,7 @@ echo GIT STATUS
 git status
 
 # TAGGING CHECK:------------------------------------
-echo GIT TAG history
-git tag -l
+# echo GIT TAG history
+# git tag -l
 
 
