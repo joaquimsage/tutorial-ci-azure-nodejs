@@ -12,10 +12,6 @@ developCiBranch=develop-ci
 echo GIT STATUS
 git status
 
-echo git checkout develop
-git checkout ${developBranch}
-
-
 echo Trying to git checkout develop
 git checkout ${developBranch}
 
