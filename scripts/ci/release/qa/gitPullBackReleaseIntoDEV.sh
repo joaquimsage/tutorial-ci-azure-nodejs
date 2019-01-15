@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 @echo off
 # THIS SCRIPT IS BEING USED FROM THE BUILD "LOCK-RELEASE-DEVELOPMENT-TO-QA", WITHIN THE 2nd STEP-------------
+echo GIT CONFIG
+git config --global user.email "joaquim.forcada@sage.com"
+git config --global user.name "CI Auto-process"
 
 QAbranch=QA
 developBranch=develop
@@ -12,10 +15,6 @@ git status
 echo git checkout develop
 git checkout ${developBranch}
 
-
-echo GIT CONFIG
-git config --global user.email "joaquim.forcada@sage.com"
-git config --global user.name "CI Auto-process"
 
 echo Trying to git checkout develop
 git checkout ${developBranch}
