@@ -40,8 +40,8 @@ git status
 # QA VICEVERSA:--------------------------------------
 git checkout ${QAbranch}
 git merge ${developCiBranch}
-echo GIT PUSH QA
-git push origin ${QAbranch}
+# echo GIT PUSH QA
+# git push origin ${QAbranch}
 echo GIT STATUS
 git status
 

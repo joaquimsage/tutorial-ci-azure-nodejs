@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fde6242-a631-47a5-8d1c-04b2308cd6b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,8 +41,8 @@
       <file leaf-file-name="gitSynchroDEVandQA.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="464">
+              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -227,7 +228,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17058000" />
+    <option name="totallyTimeSpent" value="17082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="47" width="1632" height="971" extended-state="0" />
@@ -528,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/release/qa/gitSynchroDEVandQA.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="464">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>
