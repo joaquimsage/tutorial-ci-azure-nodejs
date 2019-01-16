@@ -34,3 +34,6 @@ git push origin ${developBranch}
 echo GIT STATUS
 git status
 
+git checkout ${QAbranch}
+echo GIT STATUS
+git status

@@ -8,10 +8,10 @@ curl -X POST -H 'Content-type: application/json' --data '{
       "fields": [
         {
           "title": "PEGG DASHBOARD: NEW VERSION '"${newVersion}"' TO PRODUCTION READY TO BE DELIVERED",
-          "value": "The new branch version '"${newLastTagBranch}"' to PRODUCTION is ready. Please double check the TAGS on the Github repository: https://github.com/SageNADev/bot_analytic_dashboard/releases"
+          "value": "The new branch version '"${newLastTagBranch}"' for PRODUCTION is ready. Please double check the TAGS on the Github repository: https://github.com/SageNADev/bot_analytic_dashboard/releases"
         }
       ],
-      "image_url": "https://media.giphy.com/media/d7tPUm40v0ICI/giphy.gif",
+      "image_url": "https://media.giphy.com/media/26uTqHQbPWtIUxer6/giphy.gif",
       "channel": "#pegg-ci-meerkat",
       "username": "CI Auto-process"
     }
