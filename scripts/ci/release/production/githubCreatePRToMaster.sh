@@ -9,7 +9,7 @@ git config --global user.name "CI Auto-process"
 QAbranch=QA
 
 echo Reset and Checkout QA branch:---------
-git reset --hard
+# git reset --hard
 git checkout ${QAbranch}
 
 
@@ -33,7 +33,7 @@ pull_request() {
   from_branch=$(git rev-parse --abbrev-ref HEAD)
 
   echo https://github.com/$to_user/$repo/pull/new/$to_user:$to_branch...$from_user:$from_branch
-  # open "https://github.com/$to_user/$repo/pull/new/$to_user:$to_branch...$from_user:$from_branch"
+  open "https://github.com/$to_user/$repo/pull/new/$to_user:$to_branch...$from_user:$from_branch"
 }
 
 # usage
