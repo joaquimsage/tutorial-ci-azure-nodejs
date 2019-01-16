@@ -5,6 +5,7 @@ echo GIT CONFIG
 git config --global user.email "joaquim.forcada@sage.com"
 git config --global user.name "CI Auto-process"
 
+
 # The source branch is develop, BOTS-000, fix.develop, etc.
 QAbranch=QA
 developBranch=develop
