@@ -1,7 +1,7 @@
 {
     "name": "app-service-hello-world",
     "description": "Simple Hello World Node.js sample for Azure App Service",
-    "version": "1.8.0-RC.0",
+    "version": "1.9.0-RC.0",
     "engines": {
         "node": ">=6.0.0",
         "npm": ">=1.0.0"
